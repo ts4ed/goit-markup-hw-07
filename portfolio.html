@@ -7,15 +7,7 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
     <!-- Header -->
@@ -252,11 +244,11 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__item">
-          <a class="footer__link logo" href="./index.html"
+          <a class="footer__link logo__footer" href="./index.html"
             >Web<span class="logo__white">Studio</span></a
           >
           <address class="address">
-            <ul class="list">
+            <ul class="address__list">
               <li class="address__item">
                 <a
                   class="footer__link--info"
@@ -275,12 +267,12 @@
             </ul>
           </address>
         </div>
-        <div class="footer__item">
-          <h2 class="social-title">ПРИСОЕДИНЯЙТЕСЬ</h2>
-          <ul class="list social-list">
-            <li class="social-list__item">
+        <div class="footer__item social">
+          <h2 class="social__title">ПРИСОЕДИНЯЙТЕСЬ</h2>
+          <ul class="social__list">
+            <li class="social__item">
               <a
-                class="social-list__link"
+                class="social__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -290,9 +282,9 @@
                 </svg>
               </a>
             </li>
-            <li class="social-list__item">
+            <li class="social__item">
               <a
-                class="social-list__link"
+                class="social__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -302,9 +294,9 @@
                 </svg>
               </a>
             </li>
-            <li class="social-list__item">
+            <li class="social__item">
               <a
-                class="social-list__link"
+                class="social__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -314,9 +306,9 @@
                 </svg>
               </a>
             </li>
-            <li class="social-list__item">
+            <li class="social__item">
               <a
-                class="social-list__link"
+                class="social__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -332,13 +324,7 @@
           <form class="submit js-speaker-form">
             <label class="submit__label social-title" for="mail">подпишитесь на рассылку</label>
             <div class="subscribe">
-              <input
-                class="submit__input"
-                type="email"
-                name="mail"
-                id="mail"
-                placeholder="E-mail"
-              />
+              <input class="submit__input" type="email" name="mail" id="mail" placeholder="E-mail" />
               <button class="button" type="submit">
                 Подписаться
                 <svg class="submit__icon">
