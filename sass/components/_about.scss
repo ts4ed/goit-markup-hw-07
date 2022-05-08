@@ -2,7 +2,7 @@
   padding-bottom: 0;
 }
 .about__list {
-  @extend .list;
+  @extend %list;
 }
 .about__icons {
   display: flex;

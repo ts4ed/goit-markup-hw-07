@@ -17,7 +17,7 @@
   font-style: inherit;
 }
 .address__list{
-  @extend .list;
+  @extend %list;
 }
 .address__item:not(:last-child) {
   margin-bottom: 9px;
@@ -25,7 +25,7 @@
 
 .footer__link,
 .footer__link--info {
-  text-decoration: none;
+  @extend %link;
 }
 .footer__link--info[target='_blank'] {
   color: var(--third-color-text);

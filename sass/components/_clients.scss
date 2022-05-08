@@ -1,6 +1,6 @@
 .clients__list {
   justify-content: center;
-  @extend .list;
+  @extend %list;
 }
 .clients__item {
   --card-item: 6;
@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
+  @extend %link;
   color: inherit;
 
   width: 100%;

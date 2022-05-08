@@ -1,7 +1,7 @@
 .social__list {
   display: flex;
   align-items: center;
-  list-style: none;
+  @extend %list;
 }
 .social__item:not(:last-child) {
   margin-right: 10px;

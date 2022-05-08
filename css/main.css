@@ -298,8 +298,13 @@ body {
   color: var(--primary-text-color);
 }
 
-.list, .address__list, .nav__list, .auth__list, .about__list, .work__list, .team__list, .clients__list, .modal__list {
+.social__list, .address__list, .nav__list, .auth__list, .about__list, .work__list, .team__list, .clients__list, .modal__list {
   list-style: none;
+}
+
+.logo__header, .header__link, .footer__link,
+.footer__link--info, .clients__link {
+  text-decoration: none;
 }
 
 .visually--hidden {
@@ -374,7 +379,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  list-style: none;
 }
 
 .social__item:not(:last-child) {
@@ -432,7 +436,6 @@ img {
 
 .logo__header {
   margin-right: 93px;
-  text-decoration: none;
   color: inherit;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -560,7 +563,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-decoration: none;
   color: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -617,11 +619,6 @@ img {
 
 .address__item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.footer__link,
-.footer__link--info {
-  text-decoration: none;
 }
 
 .footer__link--info[target='_blank'] {
@@ -895,7 +892,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-decoration: none;
   color: inherit;
   width: 100%;
   height: 92px;

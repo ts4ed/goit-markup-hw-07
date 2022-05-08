@@ -346,8 +346,13 @@ body {
   color: var(--primary-text-color);
 }
 
-.list, .address__list, .nav__list, .auth__list, .catalog__list {
+.social__list, .address__list, .nav__list, .auth__list, .catalog__list {
   list-style: none;
+}
+
+.logo__header, .header__link, .footer__link,
+.footer__link--info, .catalog__link {
+  text-decoration: none;
 }
 
 .card__set {
@@ -374,7 +379,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  list-style: none;
 }
 
 .social__item:not(:last-child) {
@@ -432,7 +436,6 @@ body {
 
 .logo__header {
   margin-right: 93px;
-  text-decoration: none;
   color: inherit;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -542,7 +545,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-decoration: none;
   color: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -599,11 +601,6 @@ body {
 
 .address__item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.footer__link,
-.footer__link--info {
-  text-decoration: none;
 }
 
 .footer__link--info[target='_blank'] {
@@ -835,7 +832,6 @@ body {
 
 .catalog__link {
   display: block;
-  text-decoration: none;
   color: inherit;
   -webkit-transition: -webkit-box-shadow var(--transition);
   transition: -webkit-box-shadow var(--transition);

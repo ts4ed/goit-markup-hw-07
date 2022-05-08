@@ -13,7 +13,7 @@
 }
 
 .team__list {
-  @extend .list;
+  @extend %list;
 }
 .team__title {
   margin-bottom: 10px;

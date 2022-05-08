@@ -12,7 +12,6 @@
 }
 .logo__header {
   margin-right: 93px;
-  text-decoration: none;
   color: inherit;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -21,6 +20,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
+  @extend %link;
 }
 .logo__black {
   color: var(--color-black);

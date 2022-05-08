@@ -1,5 +1,5 @@
 .work__list {
-  @extend .list;
+  @extend %list;
 }
 .work__item {
   position: relative;
