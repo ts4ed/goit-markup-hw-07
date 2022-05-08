@@ -35,12 +35,10 @@
   transition: color var(--transition);
 }
 .footer__link--info{
-  &:hover {
+  &:hover,  &:focus {
     color: var(--accent-text-color);
   }
-  &:focus{
-    color: var(--accent-text-color);
-  }
+
 }
 
 .social__title {
